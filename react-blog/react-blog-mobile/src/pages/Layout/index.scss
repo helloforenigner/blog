@@ -1,0 +1,34 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  flex: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  border-bottom: solid 1px var(--adm-color-border);
+}
+
+.body {
+  flex: 1;
+  display: flex;
+}
+
+.bottom {
+  position: fixed;
+  /* 固定定位 */
+  bottom: 0;
+  /* 距离底部 0 像素 */
+  left: 0;
+  /* 距离左侧 0 像素，确保底部区域宽度占满屏幕 */
+  right: 0;
+  /* 距离右侧 0 像素，确保底部区域宽度占满屏幕 */
+  border-top: solid 1px var(--adm-color-border);
+  background-color: white;
+  /* 可根据需要设置背景色，避免底部区域透明导致内容重叠 */
+  z-index: 100;
+  /* 设置 z-index 值，确保底部区域显示在其他内容之上 */
+}

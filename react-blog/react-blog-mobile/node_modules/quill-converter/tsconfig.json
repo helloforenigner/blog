@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+    	"module": "commonjs",
+		"declaration": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"outDir": "./dist",
+		"skipLibCheck": true,
+		"strict": true
+	},
+	"files": ["./index.ts"]
+}

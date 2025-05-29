@@ -1,0 +1,48 @@
+.simple-wrap {
+    width: 270px;
+    // height: 32px;
+    margin-bottom: 24px;
+}
+
+.simple-verify {
+    line-height: 42px;
+    width: 320px;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+
+    .simple-left {
+        user-select: none;
+        text-align: center;
+        color: #fff;
+        border-radius: 3px 0 0 3px;
+        height: 100%;
+        width: 120px;
+        width: 0;
+    }
+
+    .simple-slider {
+        user-select: none;
+        cursor: pointer;
+        border-radius: 0 3px 3px 0;
+        text-align: center;
+        width: 55px;
+        height: 100%;
+        font-size: 20px;
+        color: #666666;
+        background-color: #E0E0E0;
+    }
+
+    .simple-right {
+        user-select: none;
+        text-align: center;
+        color: #D7D7D7;
+        width: 193px;
+        height: 100%;
+        border-radius: 0 3px 3px 0;
+        background-color: #fff;
+
+    }
+}

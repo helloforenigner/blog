@@ -1,0 +1,14 @@
+.slate-container pre[class^="language-"] {
+    background: #2d2d2d;
+    color: #ccc;
+    padding: 15px;
+    border-radius: 0 0 4px 4px;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+.slate-container code {
+    font-family: 'Fira Code', Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}

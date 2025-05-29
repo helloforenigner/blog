@@ -1,0 +1,51 @@
+.login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: center/cover url('~@/assets/login.png');
+
+    .login-container {
+        width: 440px;
+        height: 360px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+
+        .ant-radio-group {
+            width: 400px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .register-button {
+            background-color: gray;
+        }
+    }
+
+    .ant-card-head-title {
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 20px; // 增大标题字体大小
+        font-weight: bold; // 加粗标题字体
+    }
+
+    .ant-btn {
+        border-radius: 6px;
+        height: 44px;
+        width: 100px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        margin-right: 16px; // 设置按钮间距
+    }
+
+    .button-box {
+        margin-top: 30px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}

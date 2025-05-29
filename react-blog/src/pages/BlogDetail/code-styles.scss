@@ -1,0 +1,45 @@
+// 增强代码块样式
+.blog-body {
+
+    // 代码块样式
+    .ql-code-block-container,
+    pre {
+        background-color: var(--code-bg, #272822) !important;
+        padding: 1rem;
+        border-radius: 4px;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+
+        .ql-ui {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            background-color: #333;
+            color: #ccc;
+            border: none;
+            font-family: monospace;
+        }
+
+        .ql-code-block,
+        code {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace !important;
+            font-size: 0.9rem;
+            color: #f8f8f2 !important;
+        }
+    }
+
+    // 行内代码样式
+    code {
+        font-family: monospace;
+        background-color: var(--code-bg, #f5f5f5);
+        padding: 0.2rem 0.4rem;
+        border-radius: 3px;
+        color: var(--code-color, #e83e8c);
+    }
+}
+
+// 语法高亮修正
+body.dark-mode {
+    --code-bg: #272822;
+    --code-color: #f92672;
+}

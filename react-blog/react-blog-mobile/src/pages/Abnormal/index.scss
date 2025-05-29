@@ -1,0 +1,84 @@
+.kick_out-button {
+    background-color: yellow;
+}
+
+.revive-button {
+    background-color: yellowgreen;
+}
+
+.prohibit-button {
+    background-color: rgb(249, 92, 92);
+}
+
+.operate-space {
+    button {
+        font-size: 10px;
+    }
+}
+
+.account-text {
+    cursor: pointer;
+    text-align: center;
+}
+
+.description-text {
+    cursor: pointer;
+}
+
+.header-box {
+    position: relative;
+}
+
+.float-button-add {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+
+}
+
+.abnormal-container {
+    height: 100%;
+    width: 100%;
+}
+
+.breadcrumbStyle {
+    height: 100%;
+    width: 100%;
+    display: 'flex';
+    text-align: 'center';
+    gap: '8px';
+    font-Size: '14px'
+}
+
+.breadcrumbItemStyle {
+    position: relative;
+    color: rgb(156, 151, 151);
+    cursor: 'pointer';
+    text-Decoration: 'none'
+}
+
+.breadcrumbSeparatorStyle {
+    color: '#bfbfbf'
+}
+
+.itemCard {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adm-card-header-title {
+    width: 100%;
+}
+
+.dataFilter {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+}
+
+.dataFilterInput {
+    display: inline-block;
+
+
+}

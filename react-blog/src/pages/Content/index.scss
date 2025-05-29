@@ -1,0 +1,39 @@
+#publish-button {
+    background-color: #21de3d;
+}
+
+#publish-button:hover {
+    background-color: #12f029;
+}
+
+#revoke-button {
+    background-color: #ece50e;
+}
+
+#revoke-button:hover {
+    background-color: #e8eb15;
+}
+
+.custom-table .ant-table-tbody>tr>td {
+    max-height: 60px;
+    /* 可按需调整最大高度 */
+    overflow: hidden;
+    white-space: normal;
+    /* 允许文本换行 */
+    word-wrap: break-word;
+    /* 长单词或 URL 地址换行 */
+    word-break: break-all;
+    /* 允许在单词内换行 */
+}
+
+/* 若单元格内容是富文本且需换行显示，限制显示行数 */
+.custom-table .ant-table-tbody>tr>td>div {
+    display: -webkit-box;
+    // -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* 限制显示行数，可按需调整 */
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+}

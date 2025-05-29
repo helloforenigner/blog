@@ -1,0 +1,55 @@
+.content-container {
+    height: 100%;
+    width: 100%;
+}
+
+#publish-button {
+    background-color: #21de3d;
+}
+
+#publish-button:hover {
+    background-color: #12f029;
+}
+
+#revoke-button {
+    background-color: #ece50e;
+}
+
+#revoke-button:hover {
+    background-color: #e8eb15;
+}
+
+.breadcrumbStyle {
+    height: 100%;
+    width: 100%;
+    display: 'flex';
+    text-align: 'center';
+    gap: '8px';
+    font-Size: '14px'
+}
+
+.breadcrumbItemStyle {
+    position: relative;
+    color: rgb(156, 151, 151);
+    cursor: 'pointer';
+    text-Decoration: 'none'
+}
+
+.breadcrumbSeparatorStyle {
+    color: '#bfbfbf'
+}
+
+.adm-card-header-title {
+    width: 100%;
+}
+
+.addBlog {
+    position: absolute;
+    right: 10%;
+}
+
+.itemCard {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
